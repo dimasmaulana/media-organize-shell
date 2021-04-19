@@ -22,3 +22,12 @@ This script renames files in the current directory and subdirectories based on t
 3. Run the script in the directory containing your files: `./media-organize`.
 
 **Note:** Make sure you have `exiftool` installed on your system.
+
+## License
+
+This tool is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+
+Pull requests are welcome! Feel free to contribute to the project by submitting bug fixes, enhancements, or new features.
+
