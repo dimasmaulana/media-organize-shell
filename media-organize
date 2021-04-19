@@ -1,0 +1,4 @@
+#!/bin/bash
+cd -- "$(dirname "$0")"
+exiftool '-filename<CreationDate' -d ./%Y%m%d_%H%M%S%%-c.%%le -api largefilesupport=1 -ext heic -ext mov -ext mp4 -ext 3gp -ext jpeg -ext jpg -ext png -ext bmp -r ./
+exiftool "-FileModifyDate<CreationDate" -api largefilesupport=1 -api quicktimeutc -ext heic -ext mov -ext mp4 -ext 3gp -ext jpeg -ext jpg -ext png -ext bmp -r ./
